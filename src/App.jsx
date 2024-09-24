@@ -1,9 +1,10 @@
 import './Style/main.scss';
+import CardRating from './Components/CardRating';
 
 function App() {
   return (
-    <div className="App">
-      
+    <div className="app">
+      < CardRating />
     </div>
   );
 }
