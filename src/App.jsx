@@ -5,8 +5,8 @@ import CardThanks from './Components/CardThanks';
 function App() {
   return (
     <div className="app">
-      {/* < CardRating /> */}
-      < CardThanks />
+      < CardRating />
+      {/* < CardThanks /> */}
     </div>
   );
 }
