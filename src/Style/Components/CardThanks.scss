@@ -4,9 +4,13 @@
     border-radius: 30px;
     padding: 48px 36px 42px 36px;
     background: $blackGradient;
-    display: flex;
     align-items: center;
     flex-direction: column;
+    display: none;
+
+    &.submit {
+        display: flex;
+    }
 
     @media (max-width: 450px) {
         max-width: 327px;
